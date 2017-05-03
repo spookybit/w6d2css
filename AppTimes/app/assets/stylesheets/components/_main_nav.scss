@@ -1,0 +1,41 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.left-nav > ul,
+.right-nav > ul {
+ display: flex;
+}
+
+.left-nav > ul > li {
+  font-size: 15px;
+  margin-right: 41px;
+  font-family: $sans-serif;
+  text-transform: uppercase;
+}
+
+.right-nav > ul > li {
+  margin: 0px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+  margin-left: 10px;
+  font-size: x-large;
+}
